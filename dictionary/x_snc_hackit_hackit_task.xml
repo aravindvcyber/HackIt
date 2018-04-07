@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="HackIt Task" max_length="40" name="x_snc_hackit_hackit_task" type="collection"/>
+</database>

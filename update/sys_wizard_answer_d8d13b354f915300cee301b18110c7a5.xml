@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>HackIt Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>HackIt Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">42f7f79f4f2cdb00cee301b18110c718</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-07 05:49:22</sys_created_on>
+        <sys_id>d8d13b354f915300cee301b18110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HackIt Task</sys_name>
+        <sys_package display_value="HackIt" source="x_snc_hackit">45eb2fbd4f515300cee301b18110c728</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HackIt">45eb2fbd4f515300cee301b18110c728</sys_scope>
+        <sys_update_name>sys_wizard_answer_d8d13b354f915300cee301b18110c7a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-07 05:49:22</sys_updated_on>
+        <table/>
+        <target_url>x_snc_hackit_hackit_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
