@@ -2,6 +2,16 @@
 <database>
     <element attributes="live_feed=true" audit="true" extends="incident" label="HackIt" max_length="40" name="x_snc_hackit_hackit" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="empty" label="inc_state" max_length="40" name="u_inc_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Message Result Data" max_length="40" name="u_message_result_data" type="string"/>
+        <element default="3cdf7f7d4f915300cee301b18110c7bf" label="reference" max_length="32" name="u_reference" reference="incident" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="GET" sequence="0" value="get"/>
+                <element label="INFO" sequence="1" value="info"/>
+                <element label="More" sequence="2" value="more"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="sys_class_name"/>
             <element name="number"/>
