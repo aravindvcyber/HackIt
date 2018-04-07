@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" label="HackIt" max_length="40" name="x_snc_hackit_hackit" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="incident" label="HackIt" max_length="40" name="x_snc_hackit_hackit" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="number"/>
+        </index>
+        <index name="index3">
+            <element name="active"/>
+            <element name="sys_class_name"/>
+            <element name="number"/>
+        </index>
     </element>
 </database>

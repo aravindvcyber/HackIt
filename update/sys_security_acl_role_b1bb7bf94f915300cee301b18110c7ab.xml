@@ -3,17 +3,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-07 05:28:12</sys_created_on>
-        <sys_id>46fca3314f915300cee301b18110c7cb</sys_id>
+        <sys_created_on>2018-04-07 06:32:37</sys_created_on>
+        <sys_id>b1bb7bf94f915300cee301b18110c7ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_hackit_hackit.x_snc_hackit.hackit_user</sys_name>
         <sys_package display_value="HackIt" source="x_snc_hackit">45eb2fbd4f515300cee301b18110c728</sys_package>
         <sys_policy/>
         <sys_scope display_value="HackIt">45eb2fbd4f515300cee301b18110c728</sys_scope>
-        <sys_security_acl display_value="x_snc_hackit_hackit">4efca3314f915300cee301b18110c7c8</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_46fca3314f915300cee301b18110c7cb</sys_update_name>
+        <sys_security_acl display_value="x_snc_hackit_hackit">b9bb7bf94f915300cee301b18110c7a8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b1bb7bf94f915300cee301b18110c7ab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-07 05:28:12</sys_updated_on>
+        <sys_updated_on>2018-04-07 06:32:37</sys_updated_on>
         <sys_user_role display_value="x_snc_hackit.hackit_user" name="x_snc_hackit.hackit_user">bdfca3314f915300cee301b18110c79a</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
